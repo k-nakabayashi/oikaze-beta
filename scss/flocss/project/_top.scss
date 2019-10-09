@@ -1,4 +1,3 @@
-
 #top {
   section:not(.top-About) {
     li {
@@ -69,33 +68,11 @@
 
 .top-Problem {
 
-  li:nth-child(even) {
-    .top-Problem__img {
-     img {
-
-      @include u-md {
-        padding-right: 10%;
-      }
-     }
-    }
-  }
-
-  li:nth-child(odd) {
-    .top-Problem__img{
-      img {
-        @include u-md {
-          padding-left: 10%;
-        }
-      }
-    }
-    .top-Problem_detail {
-     
-    }
-  }
 @at-root {
   .top-Problem__img {
-    background: #DBDBDB;
-
+    @include u-md {
+     background: #DBDBDB;
+    }
     img {
       @include u-md {
         padding-top: 10%;
@@ -103,7 +80,7 @@
     }
   }
   .top-Problem__detail {
-    top: 15%;
+    top: 10%;
   }
 }}
 
@@ -152,4 +129,3 @@
     }
   }
 }
-

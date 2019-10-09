@@ -160,6 +160,21 @@ display: none;
 }
 
 
+@for $i from 1 through 20 {
+  .u-pl-md-#{$i * 5} {
+
+    @include u-md {
+      padding-left: #{$i * 5 + "%"};
+    }
+  }
+  .u-pr-md-#{$i * 5} {
+
+    @include u-md {
+      padding-right: #{$i * 5 + "%"};
+    }
+  }
+}
+
 /*=====================
       レイアウト組
 =======================*/
@@ -300,13 +315,62 @@ display: none;
 }
 
 /*=====================
-  ページごとのフォント
+  absolute
 =======================*/
+
+@for $i from 0 through 10 {
+  .u-r-#{$i * 10} {
+    right: #{$i * 10 + "%"};
+  }
+
+  .u-r-md-#{$i * 10} {
+    @include u-md {
+      right: #{$i * 10 + "%"};
+    }
+  }
+
+  .u-l-#{$i * 10} {
+    left: #{$i * 10 + "%"};
+  }
+
+  .u-l-md-#{$i * 10} {
+    @include u-md {
+      left: #{$i * 10 + "%"};
+    }
+  }
+}
+
 
 /*=====================
-  ページごとのフォント
+  transform
+=======================*/
+@for $i from 0 through 10 {
+  .u-tf-x-#{$i * 10} {
+    transform: translateX(#{ $i * 10 + "%"});
+  }
+}
+
+
+/*=====================
+  display
 =======================*/
 
+.u-none {
+  display: none!important;
+}
+.u-inline-block {
+  display: inline-block!important;
+}
+
+/*=====================
+  位置系
+=======================*/
+
+.u-ty-10--sp {
+  @include u-sm-max {
+    transform: translateY(10vh);
+  }
+}
 /*=====================
   ページごとのフォント
 =======================*/

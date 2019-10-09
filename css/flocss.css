@@ -327,6 +327,246 @@
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .u-pl-md-5 {
+    padding-left: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-5 {
+    padding-right: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-10 {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-10 {
+    padding-right: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-15 {
+    padding-left: 15%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-15 {
+    padding-right: 15%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-20 {
+    padding-left: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-20 {
+    padding-right: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-25 {
+    padding-left: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-25 {
+    padding-right: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-30 {
+    padding-left: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-30 {
+    padding-right: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-35 {
+    padding-left: 35%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-35 {
+    padding-right: 35%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-40 {
+    padding-left: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-40 {
+    padding-right: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-45 {
+    padding-left: 45%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-45 {
+    padding-right: 45%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-50 {
+    padding-left: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-50 {
+    padding-right: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-55 {
+    padding-left: 55%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-55 {
+    padding-right: 55%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-60 {
+    padding-left: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-60 {
+    padding-right: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-65 {
+    padding-left: 65%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-65 {
+    padding-right: 65%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-70 {
+    padding-left: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-70 {
+    padding-right: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-75 {
+    padding-left: 75%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-75 {
+    padding-right: 75%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-80 {
+    padding-left: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-80 {
+    padding-right: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-85 {
+    padding-left: 85%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-85 {
+    padding-right: 85%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-90 {
+    padding-left: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-90 {
+    padding-right: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-95 {
+    padding-left: 95%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-95 {
+    padding-right: 95%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pl-md-100 {
+    padding-left: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-pr-md-100 {
+    padding-right: 100%;
+  }
+}
+
 /*=====================
       レイアウト組
 =======================*/
@@ -646,11 +886,295 @@
 }
 
 /*=====================
-  ページごとのフォント
+  absolute
 =======================*/
+.u-r-0 {
+  right: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-0 {
+    right: 0%;
+  }
+}
+
+.u-l-0 {
+  left: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-0 {
+    left: 0%;
+  }
+}
+
+.u-r-10 {
+  right: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-10 {
+    right: 10%;
+  }
+}
+
+.u-l-10 {
+  left: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-10 {
+    left: 10%;
+  }
+}
+
+.u-r-20 {
+  right: 20%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-20 {
+    right: 20%;
+  }
+}
+
+.u-l-20 {
+  left: 20%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-20 {
+    left: 20%;
+  }
+}
+
+.u-r-30 {
+  right: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-30 {
+    right: 30%;
+  }
+}
+
+.u-l-30 {
+  left: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-30 {
+    left: 30%;
+  }
+}
+
+.u-r-40 {
+  right: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-40 {
+    right: 40%;
+  }
+}
+
+.u-l-40 {
+  left: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-40 {
+    left: 40%;
+  }
+}
+
+.u-r-50 {
+  right: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-50 {
+    right: 50%;
+  }
+}
+
+.u-l-50 {
+  left: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-50 {
+    left: 50%;
+  }
+}
+
+.u-r-60 {
+  right: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-60 {
+    right: 60%;
+  }
+}
+
+.u-l-60 {
+  left: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-60 {
+    left: 60%;
+  }
+}
+
+.u-r-70 {
+  right: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-70 {
+    right: 70%;
+  }
+}
+
+.u-l-70 {
+  left: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-70 {
+    left: 70%;
+  }
+}
+
+.u-r-80 {
+  right: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-80 {
+    right: 80%;
+  }
+}
+
+.u-l-80 {
+  left: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-80 {
+    left: 80%;
+  }
+}
+
+.u-r-90 {
+  right: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-90 {
+    right: 90%;
+  }
+}
+
+.u-l-90 {
+  left: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-90 {
+    left: 90%;
+  }
+}
+
+.u-r-100 {
+  right: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-r-md-100 {
+    right: 100%;
+  }
+}
+
+.u-l-100 {
+  left: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .u-l-md-100 {
+    left: 100%;
+  }
+}
+
 /*=====================
-  ページごとのフォント
+  transform
 =======================*/
+.u-tf-x-0 {
+  transform: translateX(0%);
+}
+
+.u-tf-x-10 {
+  transform: translateX(10%);
+}
+
+.u-tf-x-20 {
+  transform: translateX(20%);
+}
+
+.u-tf-x-30 {
+  transform: translateX(30%);
+}
+
+.u-tf-x-40 {
+  transform: translateX(40%);
+}
+
+.u-tf-x-50 {
+  transform: translateX(50%);
+}
+
+.u-tf-x-60 {
+  transform: translateX(60%);
+}
+
+.u-tf-x-70 {
+  transform: translateX(70%);
+}
+
+.u-tf-x-80 {
+  transform: translateX(80%);
+}
+
+.u-tf-x-90 {
+  transform: translateX(90%);
+}
+
+.u-tf-x-100 {
+  transform: translateX(100%);
+}
+
+/*=====================
+  display
+=======================*/
+.u-none {
+  display: none !important;
+}
+
+.u-inline-block {
+  display: inline-block !important;
+}
+
+/*=====================
+  位置系
+=======================*/
+@media (max-width: 576px) {
+  .u-ty-10--sp {
+    transform: translateY(10vh);
+  }
+}
+
 /*=====================
   ページごとのフォント
 =======================*/
@@ -658,8 +1182,15 @@
         全体
 =======================*/
 body {
-  background-color: #fff;
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+
+#defalut {
+  background: #3333;
+}
+
+#top {
+  background: #fff;
 }
 
 *, ul {
@@ -727,6 +1258,18 @@ button {
   margin-bottom: 40px;
 }
 
+.l-Header {
+  overflow: hidden;
+}
+
+.l-Main {
+  overflow: hidden;
+}
+
+.l-Footer * {
+  color: #333;
+}
+
 .l-Simple h3 {
   color: #333333;
 }
@@ -739,54 +1282,130 @@ button {
   padding-left: 0;
 }
 
+.l-Deep li {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .l-Deep__img {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .l-Deep__img img {
-  -o-object-fit: contain;
-     object-fit: contain;
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .l-Deep li {
-    overflow: hidden;
-  }
-}
-
-.l-Deep .l-Deep__detail {
-  width: 40%;
-}
-
-@media (max-width: 576px) {
-  .l-Deep .l-Deep__detail {
-    position: static !important;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .l-Deep li:nth-child(even) .l-Deep__img {
-    margin-right: 40%;
-  }
-  .l-Deep li:nth-child(even) .l-Deep__detail {
-    right: 20%;
-  }
-  .l-Deep li:nth-child(odd) .l-Deep__img {
-    margin-left: 40%;
-  }
-  .l-Deep li:nth-child(odd) .l-Deep__detail {
-    left: 20%;
-  }
   .l-Deep__detail {
     position: absolute;
-    margin-top: auto;
-    margin-bottom: auto;
     top: 0;
     bottom: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 70%;
+    padding: 10% 0 10% 0;
   }
 }
 
+/*.l-Deep  {
+  @at-root {
+    .l-Deep__img {
+      
+      img {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+  }
+
+
+  li {
+    @include u-md {
+      overflow: hidden;   
+    } 
+  }
+  .l-Deep__detail {
+    width: 40%;
+    @include u-sm-max {
+      position: static!important;
+      width: 100%;
+    }
+  }
+
+  @include u-md {
+    li:nth-child(even) {
+      .l-Deep__img {
+        margin-right: 40%;
+      }
+      .l-Deep__detail {
+        right: 20%;
+      }
+    }
+
+    li:nth-child(odd) {
+      .l-Deep__img {
+        margin-left: 40%;
+      }
+      .l-Deep__detail {
+        left: 20%;
+      }
+    }
+
+    @at-root {
+      .l-Deep__detail {
+        @include u-center;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 70%;
+      }
+    }
+  }
+}
+/*
+<section class='top-Products u-outer-120 container-fluid l-Deep'>
+<h2 class='text-center'>l-Deep (img(余白寄せ)　と　abosluteテキスト)</h2>
+<ul class='my-5'>
+  <li class='position-relative'>
+    <div class='l-Deep__img'>
+      <picture>
+        <source media='(min-width: 768px)' srcset='/images/hero.jpg'>
+        <source media='(min-width: 321px)' srcset='/images/hero.jpg'>
+        <img class='img-fluid' src='/images/hero.jpg' alt='IAキャラクター' >
+      </picture>
+    </div>
+    <div class='position-absolute l-Deep__detail'>
+      <div class='u-wrapper--white'>
+        <div class='u-wrapper-text--white'>
+          <h3>Products 1</h3>
+          <h4>sub</h4>
+          <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li class='position-relative'>
+    <div class='l-Deep__img'>
+      <picture>
+        <source media='(min-width: 768px)' srcset='/images/hero.jpg'>
+        <source media='(min-width: 321px)' srcset='/images/hero.jpg'>
+        <img class='img-fluid' src='/images/hero.jpg' alt='IAキャラクター' >
+      </picture>
+    </div>
+    <div class='position-absolute l-Deep__detail'>
+      <div class='u-wrapper--white'>
+        <div class='u-wrapper-text--white'>
+          <h3>Products 1</h3>
+          <h4>sub</h4>
+          <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
+        </div>
+      </div>
+    </div>
+  </li>
+
+</ul>
+</section>
+
+*/
 @media screen and (min-width: 768px) {
   .l-Half li {
     height: 300px;
@@ -905,6 +1524,10 @@ button {
   display: block;
 }
 
+.c-g-nav a {
+  color: black;
+}
+
 .c-f-nav a {
   display: inline-block;
 }
@@ -941,6 +1564,33 @@ button {
   box-shadow: 3px 10px 20px #cBcBcB;
   transform: translateY(-2px);
   transition: all 1s;
+}
+
+.c-Btn--sizing {
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.cp_link {
+  position: relative;
+  display: inline-block;
+  transition: .6s;
+  color: #333;
+}
+
+.cp_link::after {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: #333;
+  transition: .6s;
+}
+
+.cp_link:hover::after {
+  width: 100%;
 }
 
 #top h2 {
@@ -1002,19 +1652,9 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .top-Problem li:nth-child(even) .top-Problem__img img {
-    padding-right: 10%;
+  .top-Problem__img {
+    background: #DBDBDB;
   }
-}
-
-@media screen and (min-width: 768px) {
-  .top-Problem li:nth-child(odd) .top-Problem__img img {
-    padding-left: 10%;
-  }
-}
-
-.top-Problem__img {
-  background: #DBDBDB;
 }
 
 @media screen and (min-width: 768px) {
@@ -1024,7 +1664,7 @@ button {
 }
 
 .top-Problem__detail {
-  top: 15%;
+  top: 10%;
 }
 
 .top-Solution__img {
@@ -1063,4 +1703,34 @@ button {
   .Portfolio-List__back img {
     max-height: 200px;
   }
+}
+
+.js-bg-mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all .7s;
+}
+
+.js-fadeIn {
+  transition: 2s;
+  opacity: 0;
+}
+
+.js-fadeIn--animated {
+  opacity: 1;
+}
+
+.js-fadeIn--bg-animated {
+  background: none;
+}
+
+.modal.and.carousel {
+  position: fixed;
+}
+
+.u-modal-dialog {
+  max-width: 1000px;
+}
+
+.u-modal-content {
+  background: transparent;
 }

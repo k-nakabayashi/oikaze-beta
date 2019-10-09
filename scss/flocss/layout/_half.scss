@@ -2,7 +2,7 @@
 
   li {
     @include u-md {
-      height: 300px;
+      height: 300px;//調整必要
       overflow: hidden;   
     } 
   }

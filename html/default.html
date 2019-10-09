@@ -17,7 +17,6 @@
   <link href='https://use.fontawesome.com/releases/v5.6.1/css/all.css' rel='stylesheet'>
 <!--
 {% include favicons.html %}
-
 {% include social.html %}
 -->
   <script>
@@ -26,16 +25,9 @@
     ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  <script type='text/javascript'>
-    $(function(){
-      //$('#skippy').load('/new-site/_includes/skippy.html');
-      //$('header').load('/new-site/_includes/docs-navbar.html');
-      //$('footer').load('/new-site/_includes/footer.html');
-    })
-  </script>
 
   </head>
-  <body id=''>
+  <body id='defalut'>
     <!--
     <a id='skippy' class='sr-only sr-only-focusable' href='#content'></a>
     <header class='navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar'></header>
@@ -54,20 +46,55 @@
         </ul>
       </nav>
     -->
+    <!--
       <nav class="nav justify-content-end container c-g-nav">
         <a class="nav-link" href="#">Logo</a>
         <a class="nav-link active" href="#">Top</a>
         <a class="nav-link" href="#">About</a>
         <a class="nav-link" href="#">Contact</a>
       </nav>
-      <div class='top-Hero position-relative'>
+    -->
+
+      <nav class="navbar navbar-expand-lg c-g-nav container js-head-scroll">
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-right">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class='top-Hero position-relative js-target-scroll'>
         <a href=''>
           <h1 class='top-Hero__text'>最高のひと時をあなたへ<br><span><i class='fas fa-search mt-3'></i></span></h1>
         </a>
       </div>      
     </header>
 
-    <main class='l-Main u-inner-60' id='content' role='main'>
+    <main class='l-Main u-inner-60 js-fadethis' id='content' role='main'>
+        
       <article>
 
         <section class="text-center my-5">
@@ -78,8 +105,8 @@
           <p>マスクを使うか？→テキストはabsoluteかrelativeかtransformか,テキストのコントラスト実装のため</p>
         </section>
         <section class='top-About container l-Simple'>
-          <h2 class='text-center'>l-Simple</h2>
-          <ul class='row my-5 l-Simple__list'>
+          <h2 class='text-center '>l-Simple</h2>
+          <ul class='row my-5 l-Simple__list slide-top' data-plugin-options='{"speed":2000, "distance":100, "reverse": false}'>
             <li class='col-md-4'>
               <div class='u-wrapper--white'>
                 <div class='u-wrapper-text--white'>
@@ -117,19 +144,21 @@
         </section>
 
  
-        <section class='top-Products u-outer-120 container-fluid l-Deep'>
-          <h2 class='text-center'>l-Deep (img(余白寄せ)　と　abosluteテキスト)</h2>
+
+
+        <section class="top-Products u-outer-120 container-fluid l-Deep">
+          <h2 class='text-center'>l-Deep textがabsolute</h2>
           <ul class='my-5'>
-            <li class='position-relative'>
-              <div class='l-Deep__img'>
-                <picture>
+            <li class="row flex-row-reverse">
+              <div class="col-md-8 l-Deep__img">
+                <picture class="slide-right" data-plugin-options='{"speed":1500, "distance":400, "reverse": false}'> 
                   <source media='(min-width: 768px)' srcset='/images/hero.jpg'>
                   <source media='(min-width: 321px)' srcset='/images/hero.jpg'>
                   <img class='img-fluid' src='/images/hero.jpg' alt='IAキャラクター' >
                 </picture>
               </div>
-              <div class='position-absolute l-Deep__detail'>
-                <div class='u-wrapper--white'>
+              <div class="col-md-6 l-Deep__detail u-l-md-10">
+                <div class='u-wrapper--white slide-left' data-plugin-options='{"speed":1500, "distance":400, "reverse": false}'>
                   <div class='u-wrapper-text--white'>
                     <h3>Products 1</h3>
                     <h4>sub</h4>
@@ -138,26 +167,24 @@
                 </div>
               </div>
             </li>
-
-            <li class='position-relative'>
-              <div class='l-Deep__img'>
-                <picture>
+            <li class="row">
+              <div class="col-md-8 l-Deep__img">
+                <picture class="slide-left" data-plugin-options='{"speed":1500, "distance":400, "reverse": false}'>
                   <source media='(min-width: 768px)' srcset='/images/hero.jpg'>
                   <source media='(min-width: 321px)' srcset='/images/hero.jpg'>
                   <img class='img-fluid' src='/images/hero.jpg' alt='IAキャラクター' >
                 </picture>
               </div>
-              <div class='position-absolute l-Deep__detail'>
-                <div class='u-wrapper--white'>
+              <div class="col-md-6 l-Deep__detail u-r-md-10">
+                <div class='u-wrapper--white slide-right' data-plugin-options='{"speed":1500, "distance":400, "reverse": false}'>
                   <div class='u-wrapper-text--white'>
-                    <h3>Products 1</h3>
-                    <h4>sub</h4>
-                    <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
-                  </div>
+                  <h3>Products 1</h3>
+                  <h4>sub</h4>
+                  <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
+                </div>
                 </div>
               </div>
             </li>
-
           </ul>
         </section>
 
@@ -221,10 +248,6 @@
             </li>
           </ul>
         </section>
-        <div></div>
-        <p></p>
-
-
 
         <section class='top-Concept u-outer-120 container l-Ps'>
           <h2 class='text-center'>l-Ps (擬似背景を使用)<br>非推奨</h2>
@@ -257,11 +280,11 @@
           <ul class='my-5'>
 
             <li>
-              <div class='l-Abs__img'>
+              <div class='l-Abs__img u-cover-mask'>
                 <picture>
                   <source media='(min-width: 768px)' srcset='/images/hero.jpg'>
                   <source media='(min-width: 321px)' srcset='/images/hero.jpg'>
-                  <img class='img-fluid u-opa-7' src='/images/hero.jpg' alt='IAキャラクター' >
+                  <img class='img-fluid' src='/images/hero.jpg' alt='IAキャラクター' >
                 </picture>
               </div>
               <div class='l-Abs__detail'>
@@ -287,11 +310,11 @@
                 <br><br>
             l-Back (背景を使用)
           </h2>
-          <div class='l-Back__img u-cover-mask'>
+          <div class=''>
             <!---before　あり-->
             <ul class="row">
-              <li class="col-md">
-                <div class="u-wrapper--tp">
+              <li class="col-md l-Back__img u-cover-mask">
+                <div class="u-wrapper--tp u-tf-x-0">
                   <div class="u-wrapper-text--tp">
                     <h3>Products 1</h3>
                     <h4>sub</h4>
@@ -304,42 +327,42 @@
         </section>
         
         <section class='u-outer-120 container l-Back-Half'>
-            <h2 class='text-center'>
-                ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー<br>
-                background-size: パーセント指定が必要<br>
-                containでは横幅足らない。coverは横にはみ出る<br>
-                カラム落ちは疑似要素blockを使う
-                  <br><br>
-              l-Back-Half (背景を使用)
-            </h2>
-            <ul>
-              <li>
-                <div class="l-Back-Half__img u-cover-mask u-bg-r u-f-l-2">
-                  <div class="u-wrapper--white position-relative">
-                    <div class="u-wrapper-text--white">
-                      <h3>Products 1</h3>
-                      <h4>sub</h4>
-                      <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
-                    </div>
+          <h2 class='text-center'>
+              ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー<br>
+              background-size: パーセント指定が必要<br>
+              containでは横幅足らない。coverは横にはみ出る<br>
+              カラム落ちは疑似要素blockを使う
+                <br><br>
+            l-Back-Half (背景を使用)
+          </h2>
+          <ul>
+            <li>
+              <div class="l-Back-Half__img u-cover-mask u-bg-r u-f-l-2">
+                <div class="u-wrapper--white position-relative">
+                  <div class="u-wrapper-text--white">
+                    <h3>Products 1</h3>
+                    <h4>sub</h4>
+                    <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="l-Back-Half__img u-cover-mask u-bg-l u-f-r-2">
-                  <div class="u-wrapper--white position-relative">
-                    <div class="u-wrapper-text--white">
-                      <h3>Products 1</h3>
-                      <h4>sub</h4>
-                      <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
-                    </div>
+              </div>
+            </li>
+            <li>
+              <div class="l-Back-Half__img u-cover-mask u-bg-l u-f-r-2">
+                <div class="u-wrapper--white position-relative">
+                  <div class="u-wrapper-text--white">
+                    <h3>Products 1</h3>
+                    <h4>sub</h4>
+                    <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
                   </div>
                 </div>
-              </li>
+              </div>
+            </li>
 
-            </ul>
+          </ul>
 
-            </div>
-          </section>
+          </div>
+        </section>
 
       </article>
 
@@ -385,5 +408,9 @@
     <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
+    <script src="/js/utitlity/scroll.js"></script>
+    <script src="/js/fadethis/jquery.js"></script>
+    <script src="/js/fadethis/jquery.fadethis.min.js"></script>
+    <script>$(".js-fadethis").fadeThis();</script>
   </body>
 </html>

@@ -8,6 +8,19 @@
   }
 }
 
+.l-Header {
+  overflow: hidden;
+}
+
+.l-Main {
+  overflow: hidden;
+}
+
+.l-Footer {
+  * {
+    color: #333;
+  }
+}
 
 @import "./_simple.scss";
 @import "./_deep.scss";

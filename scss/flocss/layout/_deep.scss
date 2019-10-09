@@ -1,4 +1,36 @@
-.l-Deep  {
+
+.l-Deep {
+ li {
+   position: relative;
+ }
+}
+
+.l-Deep__img {
+  @include u-md {
+    //position: absolute;
+    //top: 0;
+    //bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.l-Deep__detail {
+  @include u-md {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 10% 0 10% 0;
+  }
+}
+
+
+
+
+/*.l-Deep  {
   @at-root {
     .l-Deep__img {
       
@@ -52,3 +84,49 @@
     }
   }
 }
+/*
+<section class='top-Products u-outer-120 container-fluid l-Deep'>
+<h2 class='text-center'>l-Deep (img(余白寄せ)　と　abosluteテキスト)</h2>
+<ul class='my-5'>
+  <li class='position-relative'>
+    <div class='l-Deep__img'>
+      <picture>
+        <source media='(min-width: 768px)' srcset='/images/hero.jpg'>
+        <source media='(min-width: 321px)' srcset='/images/hero.jpg'>
+        <img class='img-fluid' src='/images/hero.jpg' alt='IAキャラクター' >
+      </picture>
+    </div>
+    <div class='position-absolute l-Deep__detail'>
+      <div class='u-wrapper--white'>
+        <div class='u-wrapper-text--white'>
+          <h3>Products 1</h3>
+          <h4>sub</h4>
+          <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li class='position-relative'>
+    <div class='l-Deep__img'>
+      <picture>
+        <source media='(min-width: 768px)' srcset='/images/hero.jpg'>
+        <source media='(min-width: 321px)' srcset='/images/hero.jpg'>
+        <img class='img-fluid' src='/images/hero.jpg' alt='IAキャラクター' >
+      </picture>
+    </div>
+    <div class='position-absolute l-Deep__detail'>
+      <div class='u-wrapper--white'>
+        <div class='u-wrapper-text--white'>
+          <h3>Products 1</h3>
+          <h4>sub</h4>
+          <p>text text text text text text text text text text text text text text texttext text text text text text text text text text text text text text text </p>
+        </div>
+      </div>
+    </div>
+  </li>
+
+</ul>
+</section>
+
+*/
